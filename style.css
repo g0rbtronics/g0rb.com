@@ -238,7 +238,7 @@ a:visited{
 html { overflow-y: scroll; }
 /* body { position: absolute; } */
 
-@media (max-device-width: 900px){
+@media (max-device-width: 1000px){
   .title{
     font-size: 7vw;
   }
