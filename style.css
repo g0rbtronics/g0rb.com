@@ -95,6 +95,15 @@ a:visited{
     background-color: black;
   }
 
+  .about{
+    font-size: 66px; 
+    font-family:var(--font);
+    background-color: var(--bgcolor2);
+    color: var(--textcolor); 
+    user-select: none;
+    
+}
+
   /* .logo{
     object-fit: cover;
     width: 100%;
@@ -233,6 +242,9 @@ a:visited{
   box-shadow: 0 0 100px yellowgreen;
 }
 
+.about >div > a:visited{
+  color:yellowgreen;
+}
 
 
 html { overflow-y: scroll; }
@@ -250,5 +262,8 @@ html { overflow-y: scroll; }
   }
   .vid-container{
     margin-top: 8vh;
+  }
+  .album{
+    width: 33rem;  
   }
 }
