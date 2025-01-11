@@ -26,6 +26,17 @@ a:visited{
   color: black;
 }
 
+.menu > div > a:link{
+  color: black;
+}
+
+.about > div > a:link{
+  color: yellow;
+}
+.about > div> a:visited{
+  color: yellow;
+}
+
 .container{
     margin: 0;
     display: flex;
