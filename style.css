@@ -141,7 +141,7 @@ a:visited{
   .vid-container{
     /* position: absolute; */
     /* top: 50%; */
-    margin-top: 17em;
+    /* margin-top: 17em; */
     grid-column-start: 1;
     grid-row-start: 2;
     text-align: center;
@@ -238,14 +238,17 @@ a:visited{
 html { overflow-y: scroll; }
 /* body { position: absolute; } */
 
-@media (max-device-width: 1000px){
+@media (max-device-width: 900px){
   .title{
-    font-size: 7vw;
+    font-size: 7.75vw;
   }
   .menu{
-    font-size: 5vw;
+    font-size: 5.75vw;
   }
   .vid{
     width: 90%;
+  }
+  .vid-container{
+    margin-top: 12vw;
   }
 }
