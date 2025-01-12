@@ -12,6 +12,22 @@ html, body{
   overflow: hidden;
 }
 
+.home-icon{
+  position: absolute;
+  width: 5rem;
+  top: 2em;
+  left: 2em;
+  background-color:yellowgreen;
+}
+
+.home-icon:hover{
+  background-color:green;
+}
+
+.home-icon:active{
+  background-color:white;
+}
+
 .video-bg{
   width: 100%; 
   height: 100%; 
