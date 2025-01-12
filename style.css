@@ -18,6 +18,7 @@ html, body{
   top: 2em;
   left: 2em;
   background-color:yellowgreen;
+  border-radius: 6%;
 }
 
 .home-icon:hover{
